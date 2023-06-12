@@ -1,0 +1,335 @@
+@import url(' https://fonts.cdnfonts.com/css/rock-salt ');
+@import url('https://fonts.cdnfonts.com/css/atakana-sarif');
+@import url('https://fonts.cdnfonts.com/css/aventena');
+@import url(' https://fonts.cdnfonts.com/css/jf-rock ');
+@import url('https://fonts.cdnfonts.com/css/fruinky');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #90ab78;
+    text-align: -webkit-center;
+    margin-top: -31px;
+}
+
+
+
+#title1 {
+    font-family: 'Atakana Sarif', sans-serif;
+    color: #6e3d3c;
+}
+
+#title2 {
+    font-family: 'JFRockOutcrop', sans-serif;
+    color: #6e3d3c;
+    margin-left: 15px;
+    margin-bottom: 46px;
+    margin-top: -30px;
+    font-size: 34px;
+}
+
+#title3 {
+    font-family: 'JFRockOutcrop', sans-serif;
+    color: #6e3d3c;
+    font-size: 34px;
+}
+
+#navnoticias{
+    padding: 68px;
+    border-radius: 68px;
+    margin-top: 60px;
+}
+
+#navnoticias2 {
+    background-color: #90ab78;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#manchete {
+    font-family: 'Rock Salt', sans-serif;
+    text-align: center;
+    font-size: 29px;
+    color: #90ab78;
+}
+
+.img1{
+    max-width: 368px;
+    max-height: 283px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.img1:hover {
+    transform: translateX(10px);
+}
+
+.img2 {
+    max-width: 368px;
+    max-height: 283px;
+    width: auto;
+    height: auto;
+}
+
+#p1 {
+    margin-left: 63px;
+    margin-right: 63px;
+    margin-top: 76px;
+    text-align: center;
+    font-family: 'AVENTENA', sans-serif;
+    font-size: 16px;
+}
+
+#primeiraS {
+    text-align: center;
+   
+}
+
+#img1P {
+    width: 638px;
+    margin-top: 10px;
+    height: 333px;
+}
+
+.imgs4 {
+    width: 15px;
+}
+
+#a1 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#not1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+#not2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#mancheteP {
+    display: inline-block;
+    margin-top: 3px;
+    font-family: 'Fruinky', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.noticias {
+    background-color: #e9e9e9;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'AVENTENA', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.noticias:hover .buttonC {
+    display: block;
+}
+
+.noticias2:hover .buttonC2 {
+    display: block;
+}
+
+.noticias2 {
+    background-color: #e9e9e9;
+    margin-top: 10px;
+    border-radius: 78px 0px 71px 10px;
+    -moz-border-radius: 78px 0px 71px 10px;
+    -webkit-border-radius: 78px 0px 71px 10px;
+    padding: 42px;
+    box-shadow: 16px 14px 0px 0px rgba(0,0,0,0.1);
+}
+
+.h3not2 {
+    font-family: 'AVENTENA', sans-serif;
+}
+
+
+.img3 {
+    float: left;
+    width: 172px;
+    height: 178px;
+    margin-top: -67px;
+    padding-right: 20px;
+    border-radius: 112px;
+    margin-left: -43px;
+}
+
+#logodiv {
+    text-align: center;
+    width: 229px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+article {
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.buttonC2 {
+    background-color: #304a19;
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 6px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-family: 'AVENTENA', sans-serif;
+    color: rgb(255 241 240);
+    border: green;
+    border-radius: 7px;
+    font-size: 15px;
+    display: none;
+    float: left;
+}
+
+.buttonC {
+    background-color: #304a19;
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 6px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-family: 'AVENTENA', sans-serif;
+    color: rgb(255 241 240);
+    border: green;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+#buttonC0 {
+    background-color: #304a19;
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 6px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-family: 'AVENTENA', sans-serif;
+    color: rgb(255 241 240);
+    border: green;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+#footernav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color:black;
+}
+
+script {
+    display: none;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    width: 39px;
+    border-radius: 8px;
+  }
+
+#menu {
+    background-color: #6e3d3c;
+    color: #fff;
+    font-family: 'AVENTENA', sans-serif;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu li {
+    flex: 1;
+}
+
+#menu a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    background-color: #90ab78;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #90ab78;      
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #6e3d3c;   
+    border-radius: 20px;       
+    border: 3px solid #90ab78;  
+  }
